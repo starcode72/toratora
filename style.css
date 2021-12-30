@@ -1,0 +1,50 @@
+body {
+  background-color: #e73631;
+  font-family: "Prompt", sans-serif;
+  font-size: 100px;
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: 5px 5px #fff;
+}
+
+.wrap {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.tora__wrap, .yoshino__wrap {
+  border: 10px solid #000;
+  height: auto;
+}
+.tora__wrap a, .yoshino__wrap a {
+  width: 100%;
+  display: block;
+}
+.tora__wrap a img, .yoshino__wrap a img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+h3 {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  font-size: 40px;
+  border-bottom: 1px solid #000;
+  position: relative;
+  top: -10px;
+  width: 30%;
+}
+
+h2 {
+  text-align: center;
+  margin: 30px calc(50% - 50vw);
+}
+/*# sourceMappingURL=style.css.map */
